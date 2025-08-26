@@ -1,0 +1,4 @@
+HTTPProxy 104.238.30.12:63232
+SocksPort 9050
+ControlPort 9051
+Log notice stdout
