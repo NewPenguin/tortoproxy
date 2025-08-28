@@ -151,7 +151,7 @@ def search_request(url: str):
             headers=headers,
             proxy=SELECTED_PROXY,
         )
-
+        print(resp)
         return resp
 
     except Exception as e:
